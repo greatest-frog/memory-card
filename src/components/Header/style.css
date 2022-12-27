@@ -1,0 +1,24 @@
+header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #2a282a;
+    box-shadow: 0 1px 4px 0 #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
